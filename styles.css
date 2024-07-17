@@ -1,0 +1,111 @@
+body 
+{
+  background-color: rgb(173, 144, 90);
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+
+.cardImage 
+{
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+#main 
+{
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  gap: 30px;
+  border-radius: 8px;
+}
+
+#image,
+#child1 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 8px;
+}
+
+#child 
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  margin-top: 50px;
+  margin-left: 30px;
+  box-shadow: 5px 5px 5px 10px white;
+}
+
+.cart 
+{
+  height: 40px;
+  width: 90px;
+  background-color: rgb(152, 46, 46);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+}
+
+#btn 
+{
+  margin-top: 40px;
+  margin-left: 600px;
+  border-radius: 8px;
+}
+
+#btn button 
+{
+  height: 40px;
+  width: 90px;
+  background-color: rgb(135, 45, 45);
+  color: #fff;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+}
+
+#search-bar 
+{
+  display: flex;
+  justify-content: center; /* Center items horizontally */
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+#searchInput
+ {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  width: 230px;
+  margin-right: 10px; 
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+#searchButton 
+{
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+#searchButton:hover 
+{
+  background-color: #218838;
+}
